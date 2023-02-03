@@ -1,0 +1,10 @@
+server.port: 8081
+
+spring.cloud.config.enabled: false
+
+library.example.url: https://localhost.com
+
+com.example.library.security:
+  clientId: clientId
+  clientSecret: clientSecret
+

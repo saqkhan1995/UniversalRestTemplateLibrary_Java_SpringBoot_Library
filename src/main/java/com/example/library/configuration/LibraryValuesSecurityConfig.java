@@ -7,7 +7,7 @@ import org.springframework.validation.annotation.Validated;
 import javax.validation.constraints.NotBlank;
 
 @Configuration
-@ConfigurationProperties(prefix = "com.exmaple.library.security")
+@ConfigurationProperties(prefix = "com.example.library.security")
 @Validated
 //@Getter
 //@Setter
