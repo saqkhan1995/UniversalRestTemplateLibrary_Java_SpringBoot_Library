@@ -6,7 +6,7 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class LibraryValuesConfig {
 
-    @Value("${library.example.url")
+    @Value("${library.example.url}")
     private String url;
 
     public String getUrl() {
